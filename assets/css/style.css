@@ -1,151 +1,210 @@
-.flex-row {
-    height: 400px;
-    margin-top: 5%
+.navbar {
+    background: steelblue;
+}
+
+.navbar a:hover{
+    color: #fff;
+}
+
+.navbar a {
+    color: #343a40;
 }
 
 .navbar-brand {
     font-weight: bold;
 }
 
-#about-me {
-    width: 60%;
-    padding: 10%;
-    font-size: 20px;
+.bio-container {
+    padding: 30px;
+    color: lightgray;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
 }
 
 #pic {
-    width: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-
+#about-me {
+    padding: 30px 40px;
+    font-size: 26px;
 }
 
 #profile-pic {
     display: block;
-    width: 80%;
-    height: 85%;
+    width: 300px;
+    height: 300px;
     box-shadow: 1px 2px 4px darkgray;
-
 }
 
-.card-group {
-    margin-top: 5%;
-    margin-bottom: 2.4%;
+.connect-container {
+    background: lightgray
 }
 
-.card {
-    padding: 2%;
-}
-
-#connect {
-    margin-top: -1%;
-    margin-bottom: 5%;
+#connect p {
     font-weight: bold;
-    font-size: 20px;
+    margin-bottom: 0;
 }
 
 #github {
     width: 6.5%;
     height: 6.5%;
     padding: 8px;
-
 }
 
 #linkedin {
     width: 6%;
     height: 6%;
     padding: 8px;
-
 }
 
 .page-footer {
     background-color: steelblue;
-    color: white;
-    position: fixed;
-    height: 40px;
-    bottom: 0;
-    width: 100%;
+    color: #fff;
 }
 
-.footer-copyright {
-    padding-top: 8px;
-}
+@media (min-width: 7680px) {
 
-#row-container{
-    margin-left: 25%;
-    margin-bottom: 3%
-}
+    .bio-container {
+        height: 600px;
+        padding: 30px;
+        color: lightgray;
+        flex-direction: row;
+    }
 
-#last-row {
-    margin-left: 25%;
-    margin-bottom: 6.4%
-}
+    #about-me {
+        width: 60%;
+        padding: 10%;
+    }
 
-.col-2 {
-    padding-left: 0px;
-    padding-right: 0px;
-}
+    #pic {
+        width: 40%;
+    }
 
-#port7 {
-    width: 80px;
-    height: 90px;
-}
-#port11 {
-    width: 110px;
-    height: 100px;
-}
-#port9 {
-    width: 110px;
-    height: 90px;
-}
-#port12 {
-    width: 65px;
-    height: 65px;
-    margin-left: 35px;
-    margin-top: 10px
-}
+    #profile-pic {
+        display: block;
+        width: 80%;
+        height: 85%;
+        box-shadow: 1px 2px 4px darkgray;
+    }
 
-#port4 {
-    width: 80px;
-    height: 90px;
-}
+    .card-group {
+        margin-top: 5%;
+        margin-bottom: 2.4%;
+    }
 
-#port5 {
-    width: 90px;
-    height: 90px;
-}
+    .card {
+        padding: 2%;
+    }
 
-#port6 {
-    width: 90px;
-    height: 110px;
-}
+    #connect p {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
 
-#port10 {
-    width: 140px;
-    height: 90px;
-    margin-top: 5px
-}
+    #github {
+        width: 6.5%;
+        height: 6.5%;
+        padding: 8px;
+    }
 
-#port1 {
-    width: 80px;
-    height: 90px;
-    margin-top: 5px
-}
+    #linkedin {
+        width: 6%;
+        height: 6%;
+        padding: 8px;
+    }
 
-#port2 {
-    width: 90px;
-    height: 100px;
-}
+    .page-footer {
+        height: 40px;
+        bottom: 0;
+        width: 100%;
+    }
 
-#port3 {
-    width: 60px;
-    height: 90px;
-    margin-top: 5px;
-    margin-left: 20px;
-}
+    .footer-copyright {
+        padding-top: 8px;
+    }
 
-#port8 {
-    width: 130px;
-    height: 90px;
-    margin-top: 10px;
-    margin-left: 10px
+    #row-container{
+        margin-left: 25%;
+        margin-bottom: 3%
+    }
+
+    #last-row {
+        margin-left: 25%;
+        margin-bottom: 6.4%
+    }
+
+    .col-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #port7 {
+        width: 80px;
+        height: 90px;
+    }
+    #port11 {
+        width: 110px;
+        height: 100px;
+    }
+    #port9 {
+        width: 110px;
+        height: 90px;
+    }
+    #port12 {
+        width: 65px;
+        height: 65px;
+        margin-left: 35px;
+        margin-top: 10px
+    }
+
+    #port4 {
+        width: 80px;
+        height: 90px;
+    }
+
+    #port5 {
+        width: 90px;
+        height: 90px;
+    }
+
+    #port6 {
+        width: 90px;
+        height: 110px;
+    }
+
+    #port10 {
+        width: 140px;
+        height: 90px;
+        margin-top: 5px
+    }
+
+    #port1 {
+        width: 80px;
+        height: 90px;
+        margin-top: 5px
+    }
+
+    #port2 {
+        width: 90px;
+        height: 100px;
+    }
+
+    #port3 {
+        width: 60px;
+        height: 90px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    #port8 {
+        width: 130px;
+        height: 90px;
+        margin-top: 10px;
+        margin-left: 10px
+    }
 }
